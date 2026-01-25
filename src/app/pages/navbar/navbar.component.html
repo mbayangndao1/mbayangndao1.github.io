@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="logo">
+  </div>
+
+  <ul class="nav-links">
+    <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
+    <li><a routerLink="/projets" routerLinkActive="active">Projets</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+    <li>
+      <a href="https://github.com/mbayangndao1" target="_blank">
+        <i class="pi pi-github"></i> GitHub
+      </a>
+    </li>
+  </ul>
+
+  <!-- Hamburger pour mobile -->
+  <div class="hamburger" (click)="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</nav>

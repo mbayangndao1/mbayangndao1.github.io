@@ -1,0 +1,73 @@
+/*
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+p {
+  line-height: 1.8;
+}
+*/
+.contact-section {
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+}
+
+.contact-main-card {
+  border-radius: 20px;
+}
+
+/* Sous-titres */
+.section-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Carte infos */
+.contact-info-card {
+  height: 100%;
+}
+
+/* Ligne info */
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact-item i {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-top: 0.2rem;
+}
+
+.contact-item span {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+  margin-bottom: 0.2rem;
+}
+
+.contact-item a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Formulaire */
+.contact-form-card .field {
+  margin-bottom: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 2rem 0.5rem;
+  }
+}

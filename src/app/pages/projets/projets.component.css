@@ -1,0 +1,67 @@
+/* SECTION */
+.projets {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.note {
+  color: #777;
+  font-size: 0.95rem;
+}
+
+/* CARD */
+.projet-card {
+  height: 100%;
+  border-radius: 18px;
+  transition: all 0.35s ease;
+}
+
+.projet-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+/* DESCRIPTION */
+.projet-description {
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* TAGS */
+.tags-group {
+  margin-top: 0.5rem;
+}
+
+.tags-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ACTIONS */
+.projet-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
